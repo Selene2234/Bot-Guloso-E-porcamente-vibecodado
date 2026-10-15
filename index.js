@@ -26,11 +26,7 @@ client.on('messageCreate', async message => {
     // Verifica se o usuário MENCIONOU o bot
     if (message.mentions.has(client.user)) {
         // Responde com uma mensagem
-        await message.reply('Para acessar o servidor, faça o \n' +
-                `1. <#1530203922772398102>\n` +
-                `2. <#1530203922772398104>\n` +
-                `3. <#1530203922772398103>`
-            `Após concluir tudo, use o comando: /desbloquear`)
+        await message.reply('oiiiii :3')
     }
 });
 
